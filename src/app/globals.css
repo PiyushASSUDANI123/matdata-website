@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+:root {
+  color-scheme: light !important;
+  --background: #f8fafc;
+  --surface-card: #ffffff;
+  --surface-elevated: #ffffff;
+  --border-subtle: #e2e8f0;
+  --border-hover: #10b981;
+  
+  --primary-emerald: #059669;
+  --primary-emerald-hover: #047857;
+  --accent-saffron: #d97706;
+  --accent-blue: #2563eb;
+
+  --foreground: #0f172a;
+  --foreground-muted: #475569;
+  --foreground-subtle: #64748b;
+  
+  scroll-behavior: smooth;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  selection-background-color: #059669;
+  selection-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Outfit', 'Noto Sans Devanagari', sans-serif;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+p, span, button, input, select, textarea, label {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', sans-serif;
+}
+
+/* Light Subtle Background Grid & Dots */
+.bg-light-grid {
+  background-image: 
+    linear-gradient(to right, rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.04) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.bg-dot-light {
+  background-image: radial-gradient(rgba(15, 23, 42, 0.07) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Crisp Frosted Glass Navbar */
+.glass-nav-light {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
+}
+
+/* High-Contrast White Cards with Subtle Shadow Lift */
+.light-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.light-card:hover {
+  border-color: #10b981;
+  box-shadow: 0 20px 40px -6px rgba(5, 150, 105, 0.12), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
+  transform: translateY(-4px);
+}
+
+.light-card-elevated {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 30px -4px rgba(15, 23, 42, 0.08);
+}
+
+/* Buttons */
+.glow-btn {
+  background: linear-gradient(135deg, #059669 0%, #047857 50%, #065f46 100%);
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.35);
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glow-btn:hover {
+  background: linear-gradient(135deg, #047857 0%, #065f46 50%, #064e3b 100%);
+  box-shadow: 0 10px 28px rgba(5, 150, 105, 0.48);
+  transform: translateY(-2px);
+}
+
+.glow-btn:active {
+  transform: translateY(0);
+}
+
+.glow-btn-secondary {
+  background: #ffffff;
+  color: #0f172a !important;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  transition: all 0.25s ease;
+}
+
+.glow-btn-secondary:hover {
+  background: #f8fafc;
+  border-color: #059669;
+  color: #059669 !important;
+  transform: translateY(-2px);
+}
+
+/* WhatsApp CTA */
+.wa-btn {
+  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+  transition: all 0.25s ease;
+}
+
+.wa-btn:hover {
+  background: linear-gradient(135deg, #20ba59 0%, #075e54 100%);
+  box-shadow: 0 10px 28px rgba(37, 211, 102, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Pulsing Badge in Light Theme */
+.pulse-badge-light {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Gradient Text */
+.gradient-text-emerald {
+  background: linear-gradient(135deg, #059669 0%, #047857 60%, #0f766e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-saffron {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar for Light Theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
