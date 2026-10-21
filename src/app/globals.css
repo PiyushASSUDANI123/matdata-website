@@ -23,33 +23,37 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--text-primary);
+  --font-sans: 'Inter', 'Hind', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Inter', 'Hind', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 html, body {
   background-color: #f8fafc;
-  color: #09090b;
-  font-family: 'Poppins', 'Noto Sans Devanagari', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #090d16;
+  font-family: 'Inter', 'Hind', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  selection-background-color: #0f172a;
+  text-rendering: optimizeLegibility;
+  selection-background-color: #2563eb;
   selection-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: 'Poppins', 'Noto Sans Devanagari', sans-serif;
+  font-family: 'Inter', 'Hind', -apple-system, BlinkMacSystemFont, sans-serif !important;
   letter-spacing: -0.02em;
   font-weight: 800;
+  color: #090d16;
 }
 
-p, span, button, input, select, textarea, label {
-  font-family: 'Poppins', 'Noto Sans Devanagari', 'Inter', sans-serif;
+p, span, button, input, select, textarea, label, td, th {
+  font-family: 'Inter', 'Hind', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Subtle Minimalist Architectural Grid */
