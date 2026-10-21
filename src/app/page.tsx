@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import {
   Search,
   Users,
@@ -1437,23 +1438,23 @@ export default function LandingPage() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-slate-900 text-white pt-16 pb-12">
+      <footer className="bg-white border-t border-slate-200 text-slate-800 pt-16 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* OFFICIAL LIVE REDIRECT CARD */}
-          <div className="bg-slate-800/80 rounded-3xl p-6 sm:p-8 mb-14 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-2xl border border-slate-700">
+          <div className="bg-emerald-50/80 rounded-3xl p-6 sm:p-8 mb-14 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-sm border border-emerald-200">
             <div className="flex items-center space-x-4 w-full lg:w-auto">
-              <div className="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center text-emerald-400 shrink-0 shadow-lg">
+              <div className="w-14 h-14 rounded-2xl bg-emerald-600 flex items-center justify-center text-white shrink-0 shadow-md">
                 <Globe size={28} />
               </div>
               <div>
-                <div className="inline-flex items-center gap-2 text-[10.5px] font-bold text-emerald-400 uppercase tracking-widest bg-emerald-950 px-3 py-1 rounded-full border border-emerald-500/30 mb-1.5">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <div className="inline-flex items-center gap-2 text-[10.5px] font-bold text-emerald-800 uppercase tracking-widest bg-emerald-100/80 px-3 py-1 rounded-full border border-emerald-300 mb-1.5">
+                  <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
                   आधिकारिक लाइव वेब पोर्टल • Official Website
                 </div>
-                <div className="text-xl sm:text-2xl font-black text-white tracking-tight">
+                <div className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
                   Matdata Portal आधिकारिक वेबसाइट
                 </div>
-                <p className="text-xs text-slate-300 mt-1 max-w-xl">
+                <p className="text-xs text-slate-600 mt-1 max-w-xl">
                   डिजिटल वोटर पर्ची, वॉर रूम व कैंपेन कंसोल के लिए सीधे आधिकारिक पोर्टल पर जाएं।
                 </p>
               </div>
@@ -1462,7 +1463,7 @@ export default function LandingPage() {
               href="https://matdataportal.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="glow-btn px-7 py-4 rounded-2xl font-black text-sm text-white flex items-center space-x-2 shrink-0 cursor-pointer"
+              className="glow-btn px-7 py-4 rounded-2xl font-black text-sm text-white flex items-center space-x-2 shrink-0 cursor-pointer shadow-md"
             >
               <span>वेबसाइट पर जाएं</span>
               <ExternalLink size={16} />
@@ -1473,69 +1474,73 @@ export default function LandingPage() {
             <div className="md:col-span-2 space-y-4">
               <div className="flex items-center space-x-3">
                 <img
-                  src="/logo.png"
+                  src="/logo.svg"
                   alt="Matdata Portal Logo"
-                  className="w-12 h-12 object-contain rounded-xl bg-white p-1"
+                  className="w-12 h-12 object-contain rounded-xl shadow-sm"
                 />
                 <div>
-                  <div className="text-2xl font-black tracking-tight text-white">
-                    Matdata<span className="text-emerald-400">Portal</span>
+                  <div className="text-2xl font-black tracking-tight text-slate-900">
+                    Matdata<span className="text-emerald-600">Portal</span>
                   </div>
-                  <div className="text-xs text-slate-400 font-medium">राजनीतिक चुनाव प्रबंधन व डिजिटल वॉर रूम</div>
+                  <div className="text-xs text-slate-500 font-semibold">राजनीतिक चुनाव प्रबंधन व डिजिटल वॉर रूम</div>
                 </div>
               </div>
-              <p className="text-xs text-slate-400 max-w-md leading-relaxed">
+              <p className="text-xs text-slate-600 max-w-md leading-relaxed">
                 भारत का अग्रणी राजनीतिक चुनाव सॉफ्टवेयर। मतदाता खोज, WhatsApp पर्ची, 
                 पन्ना प्रमुख ट्रैकिंग और पोलिंग टर्नआउट का संपूर्ण डिजिटल समाधान।
               </p>
+              <div className="inline-flex items-center gap-2 text-[11px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
+                🔒 100% ECI एवं DPDP 2023 अनुपालन
+              </div>
             </div>
 
             <div>
-              <div className="font-bold text-sm text-white mb-3">त्वरित लिंक्स</div>
-              <ul className="space-y-2 text-xs text-slate-400">
-                <li><a href="#features" className="hover:text-emerald-400">सुविधाएं (Features)</a></li>
-                <li><a href="#simulator" className="hover:text-emerald-400">लाइव पर्ची डेमो</a></li>
-                <li><a href="#warroom-preview" className="hover:text-emerald-400">वॉर-रूम डैशबोर्ड</a></li>
-                <li><a href="#plans" className="hover:text-emerald-400">पैकेजेस (Pricing)</a></li>
-                <li><a href="#faq" className="hover:text-emerald-400">FAQ</a></li>
+              <div className="font-bold text-sm text-slate-900 mb-3">त्वरित लिंक्स</div>
+              <ul className="space-y-2 text-xs text-slate-600">
+                <li><a href="#features" className="hover:text-emerald-700 font-medium">सुविधाएं (Features)</a></li>
+                <li><a href="#simulator" className="hover:text-emerald-700 font-medium">लाइव पर्ची डेमो</a></li>
+                <li><a href="#warroom-preview" className="hover:text-emerald-700 font-medium">वॉर-रूम डैशबोर्ड</a></li>
+                <li><a href="#plans" className="hover:text-emerald-700 font-medium">पैकेजेस (Pricing)</a></li>
+                <li><a href="#faq" className="hover:text-emerald-700 font-medium">FAQ</a></li>
               </ul>
             </div>
 
             <div>
-              <div className="font-bold text-sm text-white mb-3">संपर्क व सहायता</div>
-              <div className="space-y-2.5 text-xs text-slate-300">
-                <div className="text-sm font-bold text-white">Matdata Portal Desk</div>
+              <div className="font-bold text-sm text-slate-900 mb-3">संपर्क व सहायता</div>
+              <div className="space-y-2.5 text-xs text-slate-600">
+                <div className="text-sm font-bold text-slate-900">Matdata Portal Desk</div>
                 <div>
                   <a
                     href={getWaLink('नमस्ते, मुझे Matdata Portal सॉफ्टवेयर डेमो के लिए संपर्क करना है।')}
                     target="_blank"
                     rel="noreferrer"
-                    className="hover:text-emerald-400 font-bold flex items-center gap-1.5 text-emerald-400"
+                    className="hover:text-emerald-700 font-bold flex items-center gap-1.5 text-emerald-700"
                   >
-                    <MessageCircle size={14} className="text-emerald-400" />
+                    <MessageCircle size={14} className="text-emerald-600" />
                     <span>WhatsApp: {DISPLAY_PHONE}</span>
                   </a>
                 </div>
                 <div>
-                  <a href={`tel:+${WHATSAPP_NUMBER}`} className="hover:text-emerald-400 font-semibold flex items-center gap-1.5">
-                    <Phone size={14} className="text-emerald-400" />
+                  <a href={`tel:+${WHATSAPP_NUMBER}`} className="hover:text-emerald-700 font-semibold flex items-center gap-1.5">
+                    <Phone size={14} className="text-emerald-600" />
                     <span>कॉल: {DISPLAY_PHONE}</span>
                   </a>
                 </div>
-                <div className="text-emerald-400 font-medium">🇮🇳 मेड इन इंडिया • भारतीय चुनावों के लिए समर्पित</div>
+                <div className="text-slate-500 font-medium">🇮🇳 मेड इन इंडिया • भारतीय चुनावों के लिए समर्पित</div>
               </div>
             </div>
           </div>
 
-          <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <div className="pt-8 border-t border-slate-200 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div>
               © 2026 Matdata Portal (मतदाता पोर्टल). सर्वाधिकार सुरक्षित।
             </div>
-            <div className="flex space-x-4">
-              <a href="https://matdataportal.vercel.app" className="hover:text-emerald-400 font-semibold">वेबसाइट</a>
-              <a href="/privacy" className="hover:text-slate-300">गोपनीयता नीति (Privacy Policy)</a>
-              <a href="/terms" className="hover:text-slate-300">नियम व शर्तें (Terms)</a>
-              <a href="/child-safety" className="hover:text-slate-300">बाल सुरक्षा मानक (Child Safety)</a>
+            <div className="flex flex-wrap justify-center gap-4 text-xs font-semibold text-slate-600">
+              <Link href="/privacy" className="hover:text-emerald-700 transition-colors">Privacy Policy (गोपनीयता नीति)</Link>
+              <Link href="/terms" className="hover:text-emerald-700 transition-colors">Terms of Service (नियम व शर्तें)</Link>
+              <Link href="/refund" className="hover:text-emerald-700 transition-colors">Refund Policy (धनवापसी नीति)</Link>
+              <Link href="/contact" className="hover:text-emerald-700 transition-colors">Contact (संपर्क)</Link>
+              <a href="http://localhost:5003/privacy.html" target="_blank" rel="noreferrer" className="text-emerald-700 hover:underline">Backend Policies</a>
             </div>
           </div>
         </div>
