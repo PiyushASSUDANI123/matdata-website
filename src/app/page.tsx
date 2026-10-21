@@ -167,9 +167,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2.5 group">
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt="Matdata Portal"
-              className="w-8 h-8 object-contain rounded-lg transition-transform group-hover:scale-105"
+              className="w-9 h-9 object-cover rounded-xl shadow-sm transition-transform group-hover:scale-105"
             />
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
@@ -1382,7 +1382,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pb-6 border-b border-slate-100">
             <div className="flex items-center gap-2.5">
-              <img src="/logo.svg" alt="Matdata Portal" className="w-8 h-8 object-contain rounded-lg" />
+              <img src="/logo.png" alt="Matdata Portal" className="w-8 h-8 object-cover rounded-lg shadow-xs" />
               <div>
                 <span className="font-heading text-base font-black text-slate-900">
                   Matdata<span className="text-blue-600">Portal</span>
@@ -1452,7 +1452,7 @@ export default function HomePage() {
             ) : (
               <div>
                 <div className="mb-4 flex items-start gap-2.5">
-                  <img src="/logo.svg" alt="Matdata Portal" className="w-9 h-9 object-contain rounded-xl" />
+                  <img src="/logo.png" alt="Matdata Portal" className="w-9 h-9 object-cover rounded-xl shadow-xs" />
                   <div>
                     <h3 className="text-base font-bold text-slate-900">
                       लाइव वॉर-रूम डेमो
