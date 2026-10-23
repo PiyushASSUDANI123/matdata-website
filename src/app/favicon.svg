@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Sapphire Glass Background Gradient -->
+    <linearGradient id="mp_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="30%" stop-color="#1e40af" />
+      <stop offset="70%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#0b1329" />
+    </linearGradient>
+
+    <!-- Outer Rim Highlight -->
+    <linearGradient id="mp_rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#93c5fd" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Saffron Gradient (Left Wing) -->
+    <linearGradient id="mp_saffron" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9933" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+
+    <!-- Metallic Silver (Central Apex) -->
+    <linearGradient id="mp_silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="45%" stop-color="#e2e8f0" />
+      <stop offset="85%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+
+    <!-- Emerald Victory Gradient (Right Wing) -->
+    <linearGradient id="mp_emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Glow Neon Checkmark -->
+    <linearGradient id="mp_check_glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="mp_card_shadow" x="-10%" y="-10%" width="125%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#1e3a8a" flood-opacity="0.45" />
+    </filter>
+    <filter id="mp_neon_glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#10b981" flood-opacity="0.8" />
+    </filter>
+    <filter id="mp_element_shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Base Squircle -->
+  <rect x="28" y="28" width="456" height="456" rx="112" fill="url(#mp_bg)" filter="url(#mp_card_shadow)" />
+  <!-- Glass Rim Bevel -->
+  <rect x="28" y="28" width="456" height="456" rx="112" stroke="url(#mp_rim)" stroke-width="4.5" fill="none" />
+  
+  <!-- Subtle Internal Glow Grid Pattern -->
+  <circle cx="256" cy="180" r="160" fill="#3b82f6" opacity="0.12" filter="blur(40px)" />
+  <circle cx="360" cy="340" r="120" fill="#10b981" opacity="0.1" filter="blur(40px)" />
+
+  <!-- THE ARCHITECTURAL "M" EMBLEM -->
+  <g filter="url(#mp_element_shadow)">
+    <!-- Left Vertical Column (Steel Blue) -->
+    <path d="M 126 180 L 148 152 L 148 356 L 126 356 Z" fill="#94a3b8" />
+    <path d="M 148 152 L 168 152 L 168 336 L 148 356 Z" fill="#cbd5e1" />
+
+    <!-- Left Diagonal Wing (Indian Saffron) -->
+    <path d="M 126 180 L 148 152 L 236 244 L 216 264 Z" fill="url(#mp_saffron)" />
+    <path d="M 148 152 L 176 152 L 256 236 L 236 244 Z" fill="#fb923c" />
+
+    <!-- Center Pinnacle / V (Silver Metallic) -->
+    <path d="M 256 128 L 276 156 L 216 264 L 196 236 Z" fill="url(#mp_silver)" />
+    <path d="M 256 128 L 336 244 L 316 264 L 236 244 Z" fill="#f8fafc" />
+
+    <!-- Right Diagonal Wing (Emerald Green) -->
+    <path d="M 336 244 L 386 180 L 366 152 L 316 264 Z" fill="url(#mp_emerald)" />
+    <path d="M 366 152 L 386 180 L 386 356 L 366 336 Z" fill="#059669" />
+  </g>
+
+  <!-- 3D Sovereign Ballot Box -->
+  <g filter="url(#mp_element_shadow)">
+    <!-- Top Face of Ballot Box -->
+    <polygon points="216,290 296,290 326,316 246,316" fill="#475569" stroke="#94a3b8" stroke-width="2" />
+    <!-- Ballot Slot -->
+    <polygon points="248,300 286,300 294,306 256,306" fill="#0f172a" />
+    
+    <!-- Left Face of Ballot Box -->
+    <polygon points="216,290 246,316 246,386 216,360" fill="#1e293b" stroke="#64748b" stroke-width="2" />
+    <!-- Front Face of Ballot Box -->
+    <polygon points="246,316 326,316 326,386 246,386" fill="#334155" stroke="#94a3b8" stroke-width="2" />
+
+    <!-- ECI Slip Entering Slot -->
+    <polygon points="240,240 280,220 300,285 260,305" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Slip Tricolor Header Stripe -->
+    <polygon points="240,240 280,220 284,230 244,250" fill="url(#mp_saffron)" />
+    <!-- Ashoka Chakra Blue Dot -->
+    <circle cx="270" cy="262" r="8" fill="#1d4ed8" opacity="0.9" />
+  </g>
+
+  <!-- Glowing Verified Neon Checkmark Badge -->
+  <g filter="url(#mp_neon_glow)">
+    <circle cx="366" cy="346" r="44" fill="#064e3b" stroke="#10b981" stroke-width="4.5" />
+    <circle cx="366" cy="346" r="38" fill="#047857" opacity="0.4" />
+    <!-- Checkmark Path -->
+    <path d="M 346 346 L 360 360 L 388 332" fill="none" stroke="#6ee7b7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
