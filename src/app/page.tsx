@@ -45,7 +45,7 @@ import BrandLogo from '@/components/BrandLogo';
 
 const DISPLAY_PHONE = '+91 98765 43210';
 const WHATSAPP_NUMBER = '919876543210';
-const DEMO_PORTAL_URL = 'https://matdataportal.vercel.app';
+const DEMO_PORTAL_URL = 'https://app.chunavranniti.online';
 
 // Sample voters for live interactive search sandbox
 const SAMPLE_VOTERS = [
