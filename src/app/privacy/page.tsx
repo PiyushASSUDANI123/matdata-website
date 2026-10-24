@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { ArrowLeft, Shield, ExternalLink, CheckCircle2, Lock, FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'गोपनीयता नीति (Privacy Policy) | Matdata Portal (मतदाता पोर्टल)',
-  description: 'Matdata Portal (मतदाता पोर्टल) चुनाव प्रबंधन सॉफ्टवेयर और Meta WhatsApp बिजनेस मैसेजिंग हेतु आधिकारिक गोपनीयता नीति।',
+  title: 'गोपनीयता नीति (Privacy Policy) | Chunav Ranniti (चुनाव रणनीति)',
+  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव प्रबंधन सॉफ्टवेयर और Meta WhatsApp बिजनेस मैसेजिंग हेतु आधिकारिक गोपनीयता नीति।',
 };
 
 const BACKEND_POLICY_URL = 'http://localhost:5003/privacy.html';
@@ -54,11 +54,11 @@ export default function PrivacyPage() {
                 गोपनीयता नीति (Privacy Policy)
               </h1>
               <p className="text-xs text-slate-500 mt-2">
-                Matdata Portal Election Platform &amp; Meta WhatsApp Services &bull; लागू: 2026 &bull; अंतिम अद्यतन: अक्टूबर 2026
+                Chunav Ranniti (चुनाव रणनीति) Election Platform &amp; Meta WhatsApp Services &bull; लागू: 2026 &bull; अंतिम अद्यतन: अक्टूबर 2026
               </p>
             </div>
             <div className="hidden sm:block">
-              <Image src="/logo.svg" alt="Matdata Portal" width={48} height={48} className="rounded-xl shadow-sm" />
+              <Image src="/logo.svg" alt="Chunav Ranniti" width={48} height={48} className="rounded-xl shadow-sm" />
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
               1. परिचय एवं उद्देश्य (Introduction &amp; Scope)
             </h2>
             <p>
-              <strong>Matdata Portal (मतदाता पोर्टल)</strong> एक उच्च-स्तरीय लोकतांत्रिक चुनाव अभियान प्रबंधन सॉफ्टवेयर प्रणाली है। यह प्लेटफ़ॉर्म चुनाव अभियानों, प्रत्याशियों, बूथ कार्यकर्ताओं और मतदाताओं के बीच सुचारू संचार, आधिकारिक मतदाता पर्ची वितरण (Voter Information Slip) तथा बूथ प्रबंधन की सुविधा प्रदान करता है।
+              <strong>Chunav Ranniti (चुनाव रणनीति)</strong> एक उच्च-स्तरीय लोकतांत्रिक चुनाव अभियान प्रबंधन सॉफ्टवेयर प्रणाली है। यह प्लेटफ़ॉर्म चुनाव अभियानों, प्रत्याशियों, बूथ कार्यकर्ताओं और मतदाताओं के बीच सुचारू संचार, आधिकारिक मतदाता पर्ची वितरण (Voter Information Slip) तथा बूथ प्रबंधन की सुविधा प्रदान करता है।
             </p>
             <p>
               हम आपके व्यक्तिगत डेटा की सुरक्षा और गोपनीयता के प्रति पूर्णतः प्रतिबद्ध हैं। यह नीति स्पष्ट करती है कि हम किस प्रकार सार्वजनिक चुनाव रिकॉर्ड और उपयोगकर्ता जानकारी को विधि-सम्मत तरीके से सुरक्षित रखते हैं।
@@ -91,7 +91,7 @@ export default function PrivacyPage() {
               <strong className="text-emerald-800 font-bold block mb-1">
                 🔒 डेटा बिक्री पर पूर्ण प्रतिबंध (Strict Zero Commercial Sale Policy):
               </strong>
-              Matdata Portal किसी भी मतदाता अथवा कार्यकर्ता के फोन नंबर, पते अथवा व्यक्तिगत विवरण को किसी भी बाह्य विज्ञापन एजेंसी, टेलीमार्केटर, डेटा ब्रोकर अथवा व्यावसायिक संस्था को कभी भी नहीं बेचता और न ही व्यापार करता है।
+              Chunav Ranniti (चुनाव रणनीति) किसी भी मतदाता अथवा कार्यकर्ता के फोन नंबर, पते अथवा व्यक्तिगत विवरण को किसी भी बाह्य विज्ञापन एजेंसी, टेलीमार्केटर, डेटा ब्रोकर अथवा व्यावसायिक संस्था को कभी भी नहीं बेचता और न ही व्यापार करता है।
             </div>
           </section>
 
@@ -127,7 +127,7 @@ export default function PrivacyPage() {
               4. भारतीय विधियों एवं ECI दिशा-निर्देशों का अनुपालन
             </h2>
             <p>
-              Matdata Portal भारत के <strong>डिजिटल व्यक्तिगत डेटा संरक्षण अधिनियम 2023 (DPDP Act 2023)</strong>, <strong>सूचना प्रौद्योगिकी अधिनियम 2000</strong> तथा भारतीय निर्वाचन आयोग (ECI) की आदर्श आचार संहिता के पूर्ण सम्मान एवं दिशा-निर्देशों के अनुसार संचालित होता है।
+              Chunav Ranniti (चुनाव रणनीति) भारत के <strong>डिजिटल व्यक्तिगत डेटा संरक्षण अधिनियम 2023 (DPDP Act 2023)</strong>, <strong>सूचना प्रौद्योगिकी अधिनियम 2000</strong> तथा भारतीय निर्वाचन आयोग (ECI) की आदर्श आचार संहिता के पूर्ण सम्मान एवं दिशा-निर्देशों के अनुसार संचालित होता है।
             </p>
           </section>
 
@@ -136,8 +136,8 @@ export default function PrivacyPage() {
               5. शिकायत निवारण एवं संपर्क अधिकारी (Grievance Officer)
             </h2>
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 text-xs sm:text-sm space-y-1.5 text-slate-700">
-              <p><strong>अधिकारी:</strong> Matdata Portal Data Protection &amp; Compliance Cell</p>
-              <p><strong>ईमेल:</strong> <a href="mailto:compliance@matdataportal.app" className="text-emerald-700 underline font-semibold">compliance@matdataportal.app</a> / <a href="mailto:support@matdataportal.app" className="text-emerald-700 underline font-semibold">support@matdataportal.app</a></p>
+              <p><strong>अधिकारी:</strong> Chunav Ranniti (चुनाव रणनीति) Data Protection &amp; Compliance Cell</p>
+              <p><strong>ईमेल:</strong> <a href="mailto:compliance@chunavranniti.in" className="text-emerald-700 underline font-semibold">compliance@chunavranniti.in</a> / <a href="mailto:support@chunavranniti.in" className="text-emerald-700 underline font-semibold">support@chunavranniti.in</a></p>
               <p><strong>बैकएंड डायरेक्ट लिंक:</strong> <a href="http://localhost:5003/privacy.html" target="_blank" rel="noreferrer" className="text-emerald-700 underline font-semibold">http://localhost:5003/privacy.html</a></p>
             </div>
           </section>
@@ -147,7 +147,7 @@ export default function PrivacyPage() {
       {/* Footer */}
       <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
         <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div>&copy; 2026 Matdata Portal (मतदाता पोर्टल). सर्वाधिकार सुरक्षित।</div>
+          <div>&copy; 2026 Chunav Ranniti (चुनाव रणनीति). सर्वाधिकार सुरक्षित।</div>
           <div className="flex items-center gap-4 text-slate-600 font-semibold">
             <Link href="/privacy" className="text-emerald-700 hover:underline">Privacy</Link>
             <Link href="/terms" className="hover:underline">Terms</Link>

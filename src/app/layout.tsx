@@ -12,11 +12,12 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://matdataportal.verce
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Matdata Portal (मतदाता पोर्टल) | भारत का #1 चुनाव प्रबंधन व डिजिटल वॉर रूम सॉफ्टवेयर',
+  title: 'Chunav Ranniti (चुनाव रणनीति) | भारत का #1 चुनाव प्रबंधन व डिजिटल वॉर रूम सॉफ्टवेयर',
   description: 'भारत का अग्रणी इलेक्शन मैनेजमेंट व वोटर डेटाबेस प्लेटफॉर्म। 1-सेकंड मतदाता पर्ची, WhatsApp ऑटोमेशन, बूथ-वार लाइव टर्नआउट, जातिगत समीकरण व रियल-टाइम वॉर रूम इंटेलिजेंस।',
   keywords: [
-    'Matdata Portal',
-    'मतदाता पोर्टल',
+    'Chunav Ranniti',
+    'चुनाव रणनीति',
+    'Chunav Ranniti App',
     'Election Management Software India',
     'Voter Slip Generator WhatsApp',
     'Chunav War Room Software',
@@ -27,9 +28,9 @@ export const metadata: Metadata = {
     'WhatsApp Election Campaign',
     'Booth Adhyaksh App'
   ],
-  authors: [{ name: 'Matdata Portal', url: siteUrl }],
-  creator: 'Matdata Portal',
-  publisher: 'Matdata Portal',
+  authors: [{ name: 'Chunav Ranniti (चुनाव रणनीति)', url: siteUrl }],
+  creator: 'Chunav Ranniti (चुनाव रणनीति)',
+  publisher: 'Chunav Ranniti (चुनाव रणनीति)',
   formatDetection: {
     email: false,
     address: false,
@@ -51,10 +52,10 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.webmanifest',
   openGraph: {
-    title: 'Matdata Portal (मतदाता पोर्टल) - चुनाव प्रबंधन का संपूर्ण डिजिटल वॉर रूम',
+    title: 'Chunav Ranniti (चुनाव रणनीति) - चुनाव प्रबंधन का संपूर्ण डिजिटल वॉर रूम',
     description: 'बूथ से लेकर वॉर-रूम तक, हर वोट और कार्यकर्ता पर सटीक नियंत्रण। 1-सेकंड मतदाता पर्ची, WhatsApp ऑटोमेशन व लाइव टर्नआउट।',
     url: siteUrl,
-    siteName: 'Matdata Portal (मतदाता पोर्टल)',
+    siteName: 'Chunav Ranniti (चुनाव रणनीति)',
     locale: 'hi_IN',
     type: 'website',
     images: [
@@ -62,24 +63,24 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Matdata Portal - Bharat Ka #1 Election Management Software & Digital War Room',
+        alt: 'Chunav Ranniti (चुनाव रणनीति) - Bharat Ka #1 Election Management Software & Digital War Room',
         type: 'image/png',
       },
       {
         url: '/logo.png',
         width: 512,
         height: 512,
-        alt: 'Matdata Portal Logo',
+        alt: 'Chunav Ranniti Logo',
         type: 'image/png',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Matdata Portal (मतदाता पोर्टल) | Election Management Software & War Room',
+    title: 'Chunav Ranniti (चुनाव रणनीति) | Election Management Software & War Room',
     description: 'बूथ से लेकर वॉर-रूम तक हर वोट पर सटीक नियंत्रण।',
     images: ['/og-image.png'],
-    creator: '@MatdataPortal',
+    creator: '@ChunavRanniti',
   },
   robots: {
     index: true,
@@ -101,7 +102,7 @@ const jsonLd = {
     {
       '@type': 'Organization',
       '@id': `${siteUrl}/#organization`,
-      name: 'Matdata Portal',
+      name: 'Chunav Ranniti (चुनाव रणनीति)',
       url: siteUrl,
       logo: {
         '@type': 'ImageObject',
@@ -120,7 +121,7 @@ const jsonLd = {
     {
       '@type': 'SoftwareApplication',
       '@id': `${siteUrl}/#software`,
-      name: 'Matdata Portal',
+      name: 'Chunav Ranniti (चुनाव रणनीति)',
       operatingSystem: 'Web, Android, iOS',
       applicationCategory: 'BusinessApplication',
       offers: {
@@ -143,7 +144,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': `${siteUrl}/#website`,
       url: siteUrl,
-      name: 'Matdata Portal (मतदाता पोर्टल)',
+      name: 'Chunav Ranniti (चुनाव रणनीति)',
       publisher: {
         '@id': `${siteUrl}/#organization`,
       },

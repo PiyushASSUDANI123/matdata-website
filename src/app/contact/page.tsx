@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { ArrowLeft, Mail, Shield, ExternalLink, FileText, PhoneCall, Building2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'संपर्क एवं सहायता (Contact Us) | Matdata Portal (मतदाता पोर्टल)',
-  description: 'Matdata Portal (मतदाता पोर्टल) चुनाव अभियान, वॉर-रूम एवं तकनीकी सहायता संपर्क विवरण।',
+  title: 'संपर्क एवं सहायता (Contact Us) | Chunav Ranniti (चुनाव रणनीति)',
+  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव अभियान, वॉर-रूम एवं तकनीकी सहायता संपर्क विवरण।',
 };
 
 const BACKEND_CONTACT_URL = 'http://localhost:5003/contact.html';
@@ -48,11 +48,11 @@ export default function ContactPage() {
                 संपर्क एवं शिकायत निवारण (Contact &amp; Grievance)
               </h1>
               <p className="text-xs text-slate-500 mt-2">
-                Matdata Portal Support Desk &bull; 24/7 Election War-Room Assistance
+                Chunav Ranniti (चुनाव रणनीति) Support Desk &bull; 24/7 Election War-Room Assistance
               </p>
             </div>
             <div className="hidden sm:block">
-              <Image src="/logo.svg" alt="Matdata Portal" width={48} height={48} className="rounded-xl shadow-sm" />
+              <Image src="/logo.svg" alt="Chunav Ranniti" width={48} height={48} className="rounded-xl shadow-sm" />
             </div>
           </div>
 
@@ -65,8 +65,8 @@ export default function ContactPage() {
               <p className="text-xs text-slate-600 leading-relaxed">
                 लाइव चुनाव दिवस सहायता, ऑपरेटर ट्रेनिंग एवं डेटाबेस सहायता के लिए।
               </p>
-              <a href="mailto:support@matdataportal.app" className="inline-block text-sm font-bold text-emerald-700 hover:underline">
-                support@matdataportal.app
+              <a href="mailto:support@chunavranniti.in" className="inline-block text-sm font-bold text-emerald-700 hover:underline">
+                support@chunavranniti.in
               </a>
             </div>
 
@@ -78,8 +78,8 @@ export default function ContactPage() {
               <p className="text-xs text-slate-600 leading-relaxed">
                 DPDP Act 2023, चुनाव आयोग दिशा-निर्देश व मेटा व्हाट्सएप नीतियों हेतु।
               </p>
-              <a href="mailto:compliance@matdataportal.app" className="inline-block text-sm font-bold text-emerald-700 hover:underline">
-                compliance@matdataportal.app
+              <a href="mailto:compliance@chunavranniti.in" className="inline-block text-sm font-bold text-emerald-700 hover:underline">
+                compliance@chunavranniti.in
               </a>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
 
       <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
         <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div>&copy; 2026 Matdata Portal (मतदाता पोर्टल). सर्वाधिकार सुरक्षित।</div>
+          <div>&copy; 2026 Chunav Ranniti (चुनाव रणनीति). सर्वाधिकार सुरक्षित।</div>
           <div className="flex items-center gap-4 text-slate-600 font-semibold">
             <Link href="/privacy" className="hover:underline">Privacy</Link>
             <Link href="/terms" className="hover:underline">Terms</Link>

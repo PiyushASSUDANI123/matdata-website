@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ArrowLeft, ShieldAlert, Mail, Phone, AlertTriangle, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Child Safety Standards & CSAE Prevention Policy | Matdata Portal',
-  description: 'Matdata Portal child safety standards, zero-tolerance policy against Child Sexual Abuse and Exploitation (CSAE), and reporting procedures.',
+  title: 'Child Safety Standards & CSAE Prevention Policy | Chunav Ranniti (चुनाव रणनीति)',
+  description: 'Chunav Ranniti (चुनाव रणनीति) child safety standards, zero-tolerance policy against Child Sexual Abuse and Exploitation (CSAE), and reporting procedures.',
 };
 
 const CONTACT_EMAIL = 'moxrathore@gmail.com';
@@ -44,7 +44,7 @@ export default function ChildSafetyPage() {
               बाल सुरक्षा मानक एवं बाल यौन शोषण व दुर्व्यवहार रोकथाम नीति
             </p>
             <p className="text-xs text-slate-500 mt-2">
-              Matdata Portal Platform &bull; Last Updated: 2026
+              Chunav Ranniti (चुनाव रणनीति) Platform &bull; Last Updated: 2026
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export default function ChildSafetyPage() {
               <span>Zero Tolerance Policy Against Child Sexual Abuse and Exploitation (CSAE / CSAM)</span>
             </div>
             <p className="text-xs sm:text-sm text-rose-800/90 leading-relaxed">
-              Matdata Portal strictly prohibits any form of Child Sexual Abuse Material (CSAM), grooming, sexual exploitation, or any conduct that endangers minors. Any violation results in immediate content removal, permanent account termination, and automatic referral to relevant law enforcement agencies and child protection authorities.
+              Chunav Ranniti (चुनाव रणनीति) strictly prohibits any form of Child Sexual Abuse Material (CSAM), grooming, sexual exploitation, or any conduct that endangers minors. Any violation results in immediate content removal, permanent account termination, and automatic referral to relevant law enforcement agencies and child protection authorities.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default function ChildSafetyPage() {
               1. Policy Scope &amp; Purpose (उद्देश्य एवं दायरा)
             </h2>
             <p>
-              Matdata Portal is an election campaign management and voter communication platform. Although designed for civic, political campaign, and community coordination, we uphold the highest global standards for child safety across all mobile applications, web portals, messaging modules, and user-generated interactions.
+              Chunav Ranniti (चुनाव रणनीति) is an election campaign management and voter communication platform. Although designed for civic, political campaign, and community coordination, we uphold the highest global standards for child safety across all mobile applications, web portals, messaging modules, and user-generated interactions.
             </p>
             <p>
               This policy outlines our commitments and strict standards in full compliance with Google Play&apos;s Child Safety Policy and applicable international and local child protection laws.
@@ -80,7 +80,7 @@ export default function ChildSafetyPage() {
               2. Prohibited Content &amp; Behavior (प्रतिबंधित सामग्री एवं आचरण)
             </h2>
             <p>
-              Under no circumstances does Matdata Portal tolerate or facilitate:
+              Under no circumstances does Chunav Ranniti (चुनाव रणनीति) tolerate or facilitate:
             </p>
             <ul className="list-disc pl-5 space-y-1.5 text-slate-700">
               <li><strong>Child Sexual Abuse Material (CSAM):</strong> Creating, uploading, transmitting, displaying, storing, or sharing any visual depictions or materials featuring child sexual abuse.</li>
@@ -97,7 +97,7 @@ export default function ChildSafetyPage() {
               3. In-App Reporting &amp; User Mechanisms (शिकायत दर्ज करने के तरीके)
             </h2>
             <p>
-              Matdata Portal provides robust in-app and external channels for users, moderators, and observers to report any suspected violation immediately:
+              Chunav Ranniti (चुनाव रणनीति) provides robust in-app and external channels for users, moderators, and observers to report any suspected violation immediately:
             </p>
             <div className="grid sm:grid-cols-2 gap-4 mt-3">
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-2">
@@ -136,7 +136,7 @@ export default function ChildSafetyPage() {
             </p>
             <ol className="list-decimal pl-5 space-y-1.5 text-slate-700">
               <li><strong>Immediate Removal:</strong> The reported material is quarantined and permanently removed from public and private view within minutes.</li>
-              <li><strong>Account Ban:</strong> The associated user account is permanently terminated and prohibited from re-registering across all Matdata Portal services.</li>
+              <li><strong>Account Ban:</strong> The associated user account is permanently terminated and prohibited from re-registering across all Chunav Ranniti (चुनाव रणनीति) services.</li>
               <li><strong>Evidence Preservation:</strong> Audit logs, IP addresses, and metadata are securely preserved for statutory legal compliance and law enforcement handoff.</li>
             </ol>
           </section>
@@ -168,10 +168,10 @@ export default function ChildSafetyPage() {
 
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 space-y-3">
               <div className="font-bold text-slate-900 text-base">
-                Matdata Portal Safety &amp; Compliance Desk
+                Chunav Ranniti (चुनाव रणनीति) Safety &amp; Compliance Desk
               </div>
               <div className="text-xs text-slate-500">
-                Entity: Matdata Portal Operations
+                Entity: Chunav Ranniti (चुनाव रणनीति) Operations
               </div>
               <div className="grid sm:grid-cols-2 gap-3 pt-2 text-xs sm:text-sm">
                 <div className="flex items-center gap-2">
@@ -205,7 +205,7 @@ export default function ChildSafetyPage() {
 
       {/* Footer */}
       <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
-        <p>&copy; 2026 Matdata Portal. All rights reserved.</p>
+        <p>&copy; 2026 Chunav Ranniti (चुनाव रणनीति). All rights reserved.</p>
         <div className="flex justify-center gap-4 mt-2">
           <Link href="/privacy" className="hover:text-slate-700">Privacy Policy</Link>
           <span>&bull;</span>

@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { ArrowLeft, Shield, ExternalLink, FileText, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'नियम और शर्तें (Terms of Service) | Matdata Portal (मतदाता पोर्टल)',
-  description: 'Matdata Portal (मतदाता पोर्टल) चुनाव अभियान एवं डिजिटल वॉर-रूम सेवाओं हेतु आधिकारिक नियम व सेवा शर्तें।',
+  title: 'नियम और शर्तें (Terms of Service) | Chunav Ranniti (चुनाव रणनीति)',
+  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव अभियान एवं डिजिटल वॉर-रूम सेवाओं हेतु आधिकारिक नियम व सेवा शर्तें।',
 };
 
 const BACKEND_TERMS_URL = 'http://localhost:5003/terms.html';
@@ -52,11 +52,11 @@ export default function TermsPage() {
                 नियम और शर्तें (Terms of Service)
               </h1>
               <p className="text-xs text-slate-500 mt-2">
-                Matdata Portal Platform &bull; लागू तिथि: 1 जनवरी 2026
+                Chunav Ranniti (चुनाव रणनीति) Platform &bull; लागू तिथि: 1 जनवरी 2026
               </p>
             </div>
             <div className="hidden sm:block">
-              <Image src="/logo.svg" alt="Matdata Portal" width={48} height={48} className="rounded-xl shadow-sm" />
+              <Image src="/logo.svg" alt="Chunav Ranniti" width={48} height={48} className="rounded-xl shadow-sm" />
             </div>
           </div>
 
@@ -66,7 +66,7 @@ export default function TermsPage() {
               1. सेवा की स्वीकृति (Acceptance of Terms)
             </h2>
             <p>
-              <strong>Matdata Portal (मतदाता पोर्टल)</strong> वेब एप्लिकेशन, एपीआई, और मोबाइल ऐप का उपयोग करने पर आप इन नियमों व शर्तों से पूर्णतः आबद्ध होने की सहमति प्रदान करते हैं।
+              <strong>Chunav Ranniti (चुनाव रणनीति)</strong> वेब एप्लिकेशन, एपीआई, और मोबाइल ऐप का उपयोग करने पर आप इन नियमों व शर्तों से पूर्णतः आबद्ध होने की सहमति प्रदान करते हैं।
             </p>
           </section>
 
@@ -89,7 +89,7 @@ export default function TermsPage() {
               3. बौद्धिक संपदा अधिकार (Intellectual Property)
             </h2>
             <p>
-              Matdata Portal के समस्त सॉफ्टवेयर एल्गोरिदम, यूआई डिज़ाइन, ट्रेडमार्क, और ब्रांडिंग सर्वाधिकार सुरक्षित हैं। सिस्टम का अनधिकृत क्लोन बनाना अथवा रिवर्स इंजीनियरिंग कानूनन वर्जित है।
+              Chunav Ranniti (चुनाव रणनीति) के समस्त सॉफ्टवेयर एल्गोरिदम, यूआई डिज़ाइन, ट्रेडमार्क, और ब्रांडिंग सर्वाधिकार सुरक्षित हैं। सिस्टम का अनधिकृत क्लोन बनाना अथवा रिवर्स इंजीनियरिंग कानूनन वर्जित है।
             </p>
           </section>
         </div>
@@ -97,7 +97,7 @@ export default function TermsPage() {
 
       <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
         <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div>&copy; 2026 Matdata Portal (मतदाता पोर्टल). सर्वाधिकार सुरक्षित।</div>
+          <div>&copy; 2026 Chunav Ranniti (चुनाव रणनीति). सर्वाधिकार सुरक्षित।</div>
           <div className="flex items-center gap-4 text-slate-600 font-semibold">
             <Link href="/privacy" className="hover:underline">Privacy</Link>
             <Link href="/terms" className="text-emerald-700 hover:underline">Terms</Link>

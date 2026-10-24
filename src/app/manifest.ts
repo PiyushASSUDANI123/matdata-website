@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Matdata Portal - चुनाव प्रबंधन व डिजिटल वॉर रूम',
-    short_name: 'Matdata Portal',
+    name: 'Chunav Ranniti (चुनाव रणनीति) - चुनाव प्रबंधन व डिजिटल वॉर रूम',
+    short_name: 'Chunav Ranniti (चुनाव रणनीति)',
     description: 'भारत का अग्रणी इलेक्शन मैनेजमेंट व वोटर डेटाबेस प्लेटफॉर्म। 1-सेकंड मतदाता पर्ची, WhatsApp ऑटोमेशन, बूथ-वार लाइव टर्नआउट।',
     start_url: '/',
     display: 'standalone',

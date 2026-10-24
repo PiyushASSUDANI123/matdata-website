@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { ArrowLeft, Shield, ExternalLink, FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'धनवापसी नीति (Refund Policy) | Matdata Portal (मतदाता पोर्टल)',
-  description: 'Matdata Portal (मतदाता पोर्टल) चुनाव अभियान सेवाओं हेतु आधिकारिक रिफंड एवं रद्दीकरण नीति।',
+  title: 'धनवापसी नीति (Refund Policy) | Chunav Ranniti (चुनाव रणनीति)',
+  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव अभियान सेवाओं हेतु आधिकारिक रिफंड एवं रद्दीकरण नीति।',
 };
 
 const BACKEND_REFUND_URL = 'http://localhost:5003/refund.html';
@@ -48,11 +48,11 @@ export default function RefundPage() {
                 धनवापसी एवं रद्दीकरण नीति (Refund Policy)
               </h1>
               <p className="text-xs text-slate-500 mt-2">
-                Matdata Portal Platform &bull; लागू तिथि: 1 जनवरी 2026
+                Chunav Ranniti (चुनाव रणनीति) Platform &bull; लागू तिथि: 1 जनवरी 2026
               </p>
             </div>
             <div className="hidden sm:block">
-              <Image src="/logo.svg" alt="Matdata Portal" width={48} height={48} className="rounded-xl shadow-sm" />
+              <Image src="/logo.svg" alt="Chunav Ranniti" width={48} height={48} className="rounded-xl shadow-sm" />
             </div>
           </div>
 
@@ -75,7 +75,7 @@ export default function RefundPage() {
               यदि हमारी तकनीकी प्रणाली में किसी अभूतपूर्व खराबी के कारण सेवा 48 घंटे से अधिक समय तक लगातार बाधित रहती है, तो अप्रयुक्त अवधि अथवा मैसेजिंग क्रेडिट का आनुपातिक रिफंड 5 से 7 कार्य दिवसों में संसाधित किया जाता है।
             </p>
             <p>
-              दावे हेतु खाताधारक अपने पंजीकृत ईमेल से <strong className="text-slate-900">billing@matdataportal.app</strong> पर संपर्क कर सकते हैं।
+              दावे हेतु खाताधारक अपने पंजीकृत ईमेल से <strong className="text-slate-900">billing@chunavranniti.in</strong> पर संपर्क कर सकते हैं।
             </p>
           </section>
         </div>
@@ -83,7 +83,7 @@ export default function RefundPage() {
 
       <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
         <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div>&copy; 2026 Matdata Portal (मतदाता पोर्टल). सर्वाधिकार सुरक्षित।</div>
+          <div>&copy; 2026 Chunav Ranniti (चुनाव रणनीति). सर्वाधिकार सुरक्षित।</div>
           <div className="flex items-center gap-4 text-slate-600 font-semibold">
             <Link href="/privacy" className="hover:underline">Privacy</Link>
             <Link href="/terms" className="hover:underline">Terms</Link>

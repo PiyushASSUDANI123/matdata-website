@@ -168,16 +168,16 @@ export default function HomePage() {
           <Link href="/" className="flex items-center gap-2.5 group">
             <img
               src="/logo.png"
-              alt="Matdata Portal"
+              alt="Chunav Ranniti"
               className="w-9 h-9 object-cover rounded-xl shadow-sm transition-transform group-hover:scale-105"
             />
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="font-heading text-lg font-black tracking-tight text-slate-900 leading-none">
-                  Matdata<span className="text-blue-600">Portal</span>
+                  Chunav <span className="text-orange-600">Ranniti</span>
                 </span>
-                <span className="text-[9px] font-bold bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded border border-blue-200">
-                  v2.6 Enterprise
+                <span className="text-[9px] font-bold bg-orange-50 text-orange-700 px-1.5 py-0.5 rounded border border-orange-200">
+                  चुनाव रणनीति
                 </span>
               </div>
               <span className="text-[9px] uppercase font-bold tracking-wider text-slate-500 mt-0.5">
@@ -290,7 +290,7 @@ export default function HomePage() {
                 <ArrowRight size={14} />
               </button>
               <a
-                href={getWaLink('नमस्ते Matdata Portal टीम, मुझे अपनी विधानसभा के लिए चुनाव वॉर-रूम का लाइव डेमो चाहिए।')}
+                href={getWaLink('नमस्ते Chunav Ranniti टीम, मुझे अपनी विधानसभा के लिए चुनाव वॉर-रूम का लाइव डेमो चाहिए।')}
                 target="_blank"
                 rel="noreferrer"
                 className="w-full sm:w-auto btn-secondary px-6 py-3 rounded-xl text-xs flex items-center justify-center gap-2"
@@ -319,7 +319,7 @@ export default function HomePage() {
               </div>
               <div className="bg-white border border-slate-200 rounded-md px-3 py-0.5 text-[11px] text-slate-500 font-mono flex items-center gap-2 shadow-2xs">
                 <Lock size={10} className="text-emerald-600" />
-                <span>https://console.matdataportal.app/war-room/ac-14-hawa-mahal</span>
+                <span>https://console.chunavranniti.in/war-room/ac-14-hawa-mahal</span>
               </div>
               <div className="flex items-center gap-1.5 text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded border border-emerald-200">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
@@ -973,7 +973,7 @@ export default function HomePage() {
           <div className="text-center max-w-xl mx-auto space-y-2 mb-10">
             <span className="badge-minimal badge-blue">तुलनात्मक विश्लेषण</span>
             <h2 className="font-heading text-2xl sm:text-3xl font-extrabold text-slate-900">
-              पारंपरिक कागज़ी पर्ची बनाम Matdata Portal
+              पारंपरिक कागज़ी पर्ची बनाम Chunav Ranniti (चुनाव रणनीति)
             </h2>
             <p className="text-xs text-slate-500">देखें कि क्यों आधुनिक चुनाव प्रत्याशी डिजिटल वॉर-रूम अपना रहे हैं</p>
           </div>
@@ -982,7 +982,7 @@ export default function HomePage() {
             <div className="grid grid-cols-3 bg-slate-50 p-3.5 border-b border-slate-200 text-xs font-bold text-slate-800">
               <div>मापदंड (Feature)</div>
               <div className="text-slate-500">पारंपरिक कागज़ी पर्ची</div>
-              <div className="text-blue-700">Matdata Portal डिजिटल वॉर-रूम</div>
+              <div className="text-blue-700">Chunav Ranniti (चुनाव रणनीति) डिजिटल वॉर-रूम</div>
             </div>
             <div className="divide-y divide-slate-100 text-xs text-slate-600">
               <div className="grid grid-cols-3 p-3.5 items-center">
@@ -1316,7 +1316,7 @@ export default function HomePage() {
 
           <div className="space-y-2.5">
             {[
-              { q: 'क्या WhatsApp पर बल्क पर्ची भेजने से नंबर ब्लॉक होने का खतरा है?', a: 'बिल्कुल नहीं। Matdata Portal व्यक्तिगत अनधिकृत बल्क सॉफ्टवेयर के बजाय Meta Platforms, Inc. की आधिकारिक WhatsApp Business Cloud API का उपयोग करता है। सभी संदेश ECI-अनुपालन पूर्व-स्वीकृत टेम्प्लेट में जाते हैं, जिससे नंबर बैन होने का जोखिम शून्य हो जाता है।' },
+              { q: 'क्या WhatsApp पर बल्क पर्ची भेजने से नंबर ब्लॉक होने का खतरा है?', a: 'बिल्कुल नहीं। Chunav Ranniti (चुनाव रणनीति) व्यक्तिगत अनधिकृत बल्क सॉफ्टवेयर के बजाय Meta Platforms, Inc. की आधिकारिक WhatsApp Business Cloud API का उपयोग करता है। सभी संदेश ECI-अनुपालन पूर्व-स्वीकृत टेम्प्लेट में जाते हैं, जिससे नंबर बैन होने का जोखिम शून्य हो जाता है।' },
               { q: 'हमारे पास केवल चुनाव आयोग की मुद्रित या स्कैन की गई PDF सूची है, क्या यह काम करेगी?', a: 'हाँ! हमारा इन-हाउस AI OCR इंजन विशेष रूप से भारतीय निर्वाचन आयोग की मुद्रित और स्कैन की गई मतदाता सूचियों के लिए प्रशिक्षित है। यह 15 से 30 मिनटों में PDF को पूरी तरह डिजिटल डेटाबेस में बदल देता है।' },
               { q: 'क्या हमारे कार्यकर्ता दूसरे वार्ड या प्रत्याशी का डेटा देख सकते हैं?', a: 'नहीं। सिस्टम में रोल-बेस्ड एक्सेस कंट्रोल (RBAC) सुरक्षा लागू है। प्रत्येक कार्यकर्ता केवल अपने आवंटित वार्ड/बूथ का ही विवरण देख सकता है। मुख्य नियंत्रण केवल आपके पास रहता है।' },
               { q: 'सॉफ्टवेयर सेटअप होने और वॉर-रूम लाइव होने में कितना समय लगता है?', a: 'वोटर लिस्ट PDF प्राप्त होने के 24 से 48 घंटे के भीतर आपकी संपूर्ण विधानसभा अथवा वार्ड का वॉर-रूम पूरी तरह एक्टिव और लाइव कर दिया जाता है।' },
@@ -1364,7 +1364,7 @@ export default function HomePage() {
                 लाइव डेमो फॉर्म भरें
               </button>
               <a
-                href={getWaLink('नमस्ते, मुझे Matdata Portal सॉफ्टवेयर का लाइव डेमो चाहिए।')}
+                href={getWaLink('नमस्ते, मुझे Chunav Ranniti सॉफ्टवेयर का लाइव डेमो चाहिए।')}
                 target="_blank"
                 rel="noreferrer"
                 className="w-full sm:w-auto btn-whatsapp px-7 py-3.5 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2"
@@ -1382,12 +1382,12 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pb-6 border-b border-slate-100">
             <div className="flex items-center gap-2.5">
-              <img src="/logo.png" alt="Matdata Portal" className="w-8 h-8 object-cover rounded-lg shadow-xs" />
+              <img src="/logo.png" alt="Chunav Ranniti" className="w-8 h-8 object-cover rounded-lg shadow-xs" />
               <div>
                 <span className="font-heading text-base font-black text-slate-900">
-                  Matdata<span className="text-blue-600">Portal</span>
+                  Chunav <span className="text-orange-600">Ranniti</span>
                 </span>
-                <span className="block text-[10px] text-slate-400 font-medium">लोकतांत्रिक चुनाव प्रबंधन एवं डिजिटल वॉर-रूम प्रणाली</span>
+                <span className="block text-[10px] text-slate-400 font-medium">Chunav Ranniti (चुनाव रणनीति) &bull; लोकतांत्रिक चुनाव प्रबंधन एवं डिजिटल वॉर-रूम प्रणाली</span>
               </div>
             </div>
 
@@ -1404,16 +1404,16 @@ export default function HomePage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-[11px]">
             <div>
-              &copy; 2026 Matdata Portal (मतदाता पोर्टल). सर्वाधिकार सुरक्षित। ECI एवं DPDP Act 2023 दिशानिर्देशों के अनुरूप।
+              &copy; 2026 Chunav Ranniti (चुनाव रणनीति). सर्वाधिकार सुरक्षित। ECI एवं DPDP Act 2023 दिशानिर्देशों के अनुरूप।
             </div>
-            <div>हेल्पलाइन: {DISPLAY_PHONE} &bull; support@matdataportal.app</div>
+            <div>हेल्पलाइन: {DISPLAY_PHONE} &bull; support@chunavranniti.in</div>
           </div>
         </div>
       </footer>
 
       {/* FLOATING WHATSAPP BUTTON */}
       <a
-        href={getWaLink('नमस्ते Matdata Portal टीम, मुझे चुनाव वॉर-रूम का डेमो चाहिए।')}
+        href={getWaLink('नमस्ते Chunav Ranniti टीम, मुझे चुनाव वॉर-रूम का डेमो चाहिए।')}
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-5 right-5 z-50 flex items-center gap-2 bg-[#15803d] hover:bg-[#166534] text-white px-3.5 py-2.5 rounded-full shadow-lg transition-transform hover:scale-105 font-bold text-xs cursor-pointer"
@@ -1452,7 +1452,7 @@ export default function HomePage() {
             ) : (
               <div>
                 <div className="mb-4 flex items-start gap-2.5">
-                  <img src="/logo.png" alt="Matdata Portal" className="w-9 h-9 object-cover rounded-xl shadow-xs" />
+                  <img src="/logo.png" alt="Chunav Ranniti" className="w-9 h-9 object-cover rounded-xl shadow-xs" />
                   <div>
                     <h3 className="text-base font-bold text-slate-900">
                       लाइव वॉर-रूम डेमो
