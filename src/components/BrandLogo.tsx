@@ -34,15 +34,15 @@ export default function BrandLogo({
     <div className={`inline-flex items-center ${cfg.gap} select-none group ${className}`}>
       {/* Premium Minimalist Emblem */}
       <div 
-        className="relative flex-shrink-0 transition-transform duration-200 group-hover:scale-105"
+        className="relative flex-shrink-0 transition-transform duration-200 group-hover:scale-105 rounded-xl overflow-hidden shadow-sm"
         style={{ width: cfg.icon, height: cfg.icon }}
       >
         <Image
-          src="/logo.svg"
+          src="/logo.png"
           alt="Chunav Ranniti"
           width={cfg.icon}
           height={cfg.icon}
-          className="w-full h-full object-contain drop-shadow-sm"
+          className="w-full h-full object-cover"
           priority
         />
       </div>
