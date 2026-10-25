@@ -5,7 +5,7 @@ import { ArrowLeft, Shield, ExternalLink, FileText, CheckCircle2 } from 'lucide-
 
 export const metadata: Metadata = {
   title: 'नियम और शर्तें (Terms of Service) | Chunav Ranniti (चुनाव रणनीति)',
-  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव अभियान एवं डिजिटल वॉर-रूम सेवाओं हेतु आधिकारिक नियम व सेवा शर्तें।',
+  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव अभियान एवं डिजिटल इलेक्शन मैनेजमेंट सेवाओं हेतु आधिकारिक नियम व सेवा शर्तें।',
 };
 
 const BACKEND_TERMS_URL = 'http://localhost:5003/terms.html';

@@ -12,15 +12,15 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://chunavranniti.onlin
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Chunav Ranniti (चुनाव रणनीति) | भारत का #1 चुनाव प्रबंधन व डिजिटल वॉर रूम सॉफ्टवेयर',
-  description: 'भारत का अग्रणी इलेक्शन मैनेजमेंट व वोटर डेटाबेस प्लेटफॉर्म। 1-सेकंड मतदाता पर्ची, WhatsApp ऑटोमेशन, बूथ-वार लाइव टर्नआउट, जातिगत समीकरण व रियल-टाइम वॉर रूम इंटेलिजेंस।',
+  title: 'Chunav Ranniti (चुनाव रणनीति) | भारत का #1 चुनाव प्रबंधन व डिजिटल इलेक्शन मैनेजमेंट सॉफ्टवेयर',
+  description: 'भारत का अग्रणी इलेक्शन मैनेजमेंट व वोटर डेटाबेस प्लेटफॉर्म। 1-सेकंड मतदाता पर्ची, WhatsApp ऑटोमेशन, बूथ-वार लाइव टर्नआउट, जातिगत समीकरण व रियल-टाइम इलेक्शन मैनेजमेंट इंटेलिजेंस।',
   keywords: [
     'Chunav Ranniti',
     'चुनाव रणनीति',
     'Chunav Ranniti App',
     'Election Management Software India',
     'Voter Slip Generator WhatsApp',
-    'Chunav War Room Software',
+    'Chunav Election Management Software',
     'Panna Pramukh Management App',
     'Booth Level Voter Analytics',
     'Voter List OCR Hindi PDF',
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.webmanifest',
   openGraph: {
-    title: 'Chunav Ranniti (चुनाव रणनीति) - चुनाव प्रबंधन का संपूर्ण डिजिटल वॉर रूम',
-    description: 'बूथ से लेकर वॉर-रूम तक, हर वोट और कार्यकर्ता पर सटीक नियंत्रण। 1-सेकंड मतदाता पर्ची, WhatsApp ऑटोमेशन व लाइव टर्नआउट।',
+    title: 'Chunav Ranniti (चुनाव रणनीति) - संपूर्ण डिजिटल इलेक्शन मैनेजमेंट',
+    description: 'बूथ से लेकर इलेक्शन मैनेजमेंट तक, हर वोट और कार्यकर्ता पर सटीक नियंत्रण। 1-सेकंड मतदाता पर्ची, WhatsApp ऑटोमेशन व लाइव टर्नआउट।',
     url: siteUrl,
     siteName: 'Chunav Ranniti (चुनाव रणनीति)',
     locale: 'hi_IN',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Chunav Ranniti (चुनाव रणनीति) - Bharat Ka #1 Election Management Software & Digital War Room',
+        alt: 'Chunav Ranniti (चुनाव रणनीति) - Bharat Ka #1 Election Management Software',
         type: 'image/png',
       },
       {
@@ -77,8 +77,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chunav Ranniti (चुनाव रणनीति) | Election Management Software & War Room',
-    description: 'बूथ से लेकर वॉर-रूम तक हर वोट पर सटीक नियंत्रण।',
+    title: 'Chunav Ranniti (चुनाव रणनीति) | Election Management Software',
+    description: 'बूथ से लेकर इलेक्शन मैनेजमेंट तक हर वोट पर सटीक नियंत्रण।',
     images: ['/og-image.png'],
     creator: '@ChunavRanniti',
   },
@@ -138,7 +138,7 @@ const jsonLd = {
         bestRating: '5',
       },
       description:
-        'संपूर्ण चुनावी प्रबंधन सॉफ्टवेयर — AI वोटर OCR, 1-सेकंड डिजिटल मतदाता पर्ची, WhatsApp बल्क डिलीवरी, बूथ अध्यक्ष ऐप, पन्ना प्रमुख ट्रैकिंग और रियल-टाइम वॉर रूम।',
+        'संपूर्ण चुनावी प्रबंधन सॉफ्टवेयर — AI वोटर OCR, 1-सेकंड डिजिटल मतदाता पर्ची, WhatsApp बल्क डिलीवरी, बूथ अध्यक्ष ऐप, पन्ना प्रमुख ट्रैकिंग और रियल-टाइम इलेक्शन मैनेजमेंट।',
     },
     {
       '@type': 'WebSite',

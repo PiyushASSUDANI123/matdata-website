@@ -248,10 +248,10 @@ export default function HomePage() {
       <div className="bg-gradient-to-r from-slate-950 via-slate-900 to-orange-950 text-white text-xs py-2.5 px-4 text-center border-b border-orange-500/20 relative z-50">
         <div className="max-w-7xl mx-auto flex items-center justify-center gap-2.5 flex-wrap font-medium">
           <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-orange-500/20 text-orange-300 font-bold border border-orange-500/40 text-[11px]">
-            <Flame size={12} className="text-orange-400" /> चुनाव 2026 स्पेशल वॉर-रूम
+            <Flame size={12} className="text-orange-400" /> चुनाव 2026 स्पेशल इलेक्शन मैनेजमेंट
           </span>
           <span className="text-slate-200">
-            आगामी विधानसभा, नगर निकाय व पंचायत चुनावों के लिए डिजिटल वॉर-रूम बुकिंग जारी!
+            आगामी विधानसभा, नगर निकाय व पंचायत चुनावों के लिए डिजिटल इलेक्शन मैनेजमेंट बुकिंग जारी!
           </span>
           <span className="hidden sm:inline text-slate-400">•</span>
           <button
@@ -278,7 +278,7 @@ export default function HomePage() {
               मुख्य फीचर्स
             </a>
             <a href="#simulator" className="hover:text-orange-600 transition-colors flex items-center gap-1">
-              <span>लाइव वॉर-रूम</span>
+              <span>लाइव इलेक्शन मैनेजमेंट</span>
               <span className="text-[10px] bg-emerald-100 text-emerald-800 font-extrabold px-1.5 py-0.2 rounded-full">
                 LIVE
               </span>
@@ -336,7 +336,7 @@ export default function HomePage() {
                 मुख्य फीचर्स
               </a>
               <a href="#simulator" onClick={() => setMobileMenuOpen(false)}>
-                लाइव वॉर-रूम सिम्युलेटर
+                लाइव इलेक्शन मैनेजमेंट सिम्युलेटर
               </a>
               <a href="#marketing" onClick={() => setMobileMenuOpen(false)}>
                 WhatsApp मार्केटिंग व बल्क ब्रॉडकास्ट
@@ -389,7 +389,7 @@ export default function HomePage() {
             {/* National Sovereign Tag */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm text-slate-800 text-xs sm:text-sm font-bold mb-6 hover:border-orange-300 transition-colors">
               <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>🇮🇳 भारत का #1 चुनाव प्रबंधन व डिजिटल वॉर-रूम इंटेलिजेंस</span>
+              <span>🇮🇳 भारत का #1 चुनाव प्रबंधन व डिजिटल इलेक्शन मैनेजमेंट इंटेलिजेंस</span>
               <span className="text-slate-300">|</span>
               <span className="text-orange-600 font-black">Chunav Ranniti</span>
             </div>
@@ -414,7 +414,7 @@ export default function HomePage() {
                 className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-orange-600 via-orange-500 to-amber-600 text-white font-black text-base shadow-xl shadow-orange-500/25 hover:shadow-orange-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2.5"
               >
                 <Zap size={18} className="text-amber-200 fill-amber-200" />
-                <span>लाइव वॉर-रूम डेमो देखें</span>
+                <span>लाइव इलेक्शन मैनेजमेंट डेमो देखें</span>
                 <ArrowRight size={18} />
               </button>
 
@@ -460,7 +460,7 @@ export default function HomePage() {
                     <span className="w-3 h-3 rounded-full bg-emerald-400" />
                   </div>
                   <span className="text-xs font-bold text-slate-500 tracking-wide uppercase">
-                    CHUNAV RANNITI &bull; WAR ROOM CONSOLE v4.5 (PRO)
+                    CHUNAV RANNITI &bull; ELECTION MANAGEMENT CONSOLE v4.5 (PRO)
                   </span>
                 </div>
 
@@ -818,7 +818,7 @@ export default function HomePage() {
                         पन्ना प्रमुख व कार्यकर्ता मोबाइल मैनेजमेंट
                       </h3>
                       <p className="text-sm text-slate-600 leading-relaxed">
-                        हर कार्यकर्ता को केवल उसके 60 मतदाताओं का सीमित सुरक्षित एक्सेस दिया जाता है। मुख्य वॉर-रूम से लाइव दिखता है कि किस कार्यकर्ता ने कितने घरों में संपर्क किया।
+                        हर कार्यकर्ता को केवल उसके 60 मतदाताओं का सीमित सुरक्षित एक्सेस दिया जाता है। मुख्य इलेक्शन मैनेजमेंट से लाइव दिखता है कि किस कार्यकर्ता ने कितने घरों में संपर्क किया।
                       </p>
                     </div>
                   </div>
@@ -1013,7 +1013,7 @@ export default function HomePage() {
               STRATEGIC COMPARISON
             </span>
             <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-3">
-              पारंपरिक प्रचार बनाम Chunav Ranniti वॉर-रूम
+              पारंपरिक प्रचार बनाम Chunav Ranniti इलेक्शन मैनेजमेंट
             </h2>
             <p className="text-slate-600 text-sm sm:text-base mt-2">
               जानें कि आधुनिक डिजिटल उम्मीदवार 8-14% अतिरिक्त वोट कैसे जुटाते हैं।
@@ -1023,7 +1023,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto bg-slate-50 border border-slate-200 rounded-3xl overflow-hidden shadow-lg">
             <div className="grid grid-cols-2 bg-slate-900 text-white text-xs sm:text-sm font-bold text-center py-4">
               <div className="text-rose-400">❌ पुराना पारंपरिक तरीका (Old Way)</div>
-              <div className="text-emerald-400">✅ Chunav Ranniti डिजिटल वॉर-रूम</div>
+              <div className="text-emerald-400">✅ Chunav Ranniti डिजिटल इलेक्शन मैनेजमेंट</div>
             </div>
 
             <div className="divide-y divide-slate-200 text-xs sm:text-sm">
@@ -1175,7 +1175,7 @@ export default function HomePage() {
                 onClick={() => setLeadModalOpen(true)}
                 className="px-8 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm shadow-md transition-all inline-flex items-center gap-2"
               >
-                <span>इस डेटा पर अपनी सीट का वॉर-रूम बुक करें</span>
+                <span>इस डेटा पर अपनी सीट का इलेक्शन मैनेजमेंट बुक करें</span>
                 <ArrowRight size={16} />
               </button>
             </div>
@@ -1183,12 +1183,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 9. TRANSPARENT WAR ROOM PACKAGES & PRICING */}
+      {/* 9. TRANSPARENT ELECTION MANAGEMENT PACKAGES & PRICING */}
       <section id="pricing" className="py-20 bg-white border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs font-black text-orange-600 uppercase tracking-wider bg-orange-100 px-3 py-1 rounded-full">
-              WAR ROOM PLANS
+              ELECTION MANAGEMENT PLANS
             </span>
             <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-3">
               सरल, पारदर्शी और परिणाम-उन्मुख योजनाएं
@@ -1203,7 +1203,7 @@ export default function HomePage() {
             <div className="p-8 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm space-y-6">
               <div>
                 <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">वार्ड व पंचायत</span>
-                <h3 className="text-2xl font-black text-slate-900 mt-1">बेसिक वॉर-रूम</h3>
+                <h3 className="text-2xl font-black text-slate-900 mt-1">बेसिक इलेक्शन मैनेजमेंट</h3>
                 <p className="text-slate-600 text-xs mt-1">वार्ड, ग्राम पंचायत व पार्षद चुनाव हेतु</p>
               </div>
 
@@ -1251,7 +1251,7 @@ export default function HomePage() {
 
               <div>
                 <span className="text-xs font-bold text-orange-600 uppercase tracking-wider">नगर पालिका / परिषद</span>
-                <h3 className="text-2xl font-black text-slate-900 mt-1">प्रो वॉर-रूम</h3>
+                <h3 className="text-2xl font-black text-slate-900 mt-1">प्रो इलेक्शन मैनेजमेंट</h3>
                 <p className="text-slate-600 text-xs mt-1">मध्यम नगर परिषद व विधानसभा वार्ड्स</p>
               </div>
 
@@ -1299,7 +1299,7 @@ export default function HomePage() {
             <div className="p-8 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm space-y-6">
               <div>
                 <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">विधानसभा संपूर्ण</span>
-                <h3 className="text-2xl font-black text-slate-900 mt-1">एंटरप्राइज वॉर-रूम</h3>
+                <h3 className="text-2xl font-black text-slate-900 mt-1">एंटरप्राइज इलेक्शन मैनेजमेंट</h3>
                 <p className="text-slate-600 text-xs mt-1">संपूर्ण विधानसभा क्षेत्र (2.5 लाख वोटर)</p>
               </div>
 
@@ -1315,7 +1315,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Check size={16} className="text-emerald-600" />
-                  <span>समर्पित टेक्निकल मैनेजर व वॉर-रूम ऑनबोर्डिंग</span>
+                  <span>समर्पित टेक्निकल मैनेजर व इलेक्शन मैनेजमेंट ऑनबोर्डिंग</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check size={16} className="text-emerald-600" />
@@ -1366,7 +1366,7 @@ export default function HomePage() {
               },
               {
                 q: 'हमारा चुनावी डेटा कितना सुरक्षित और गोपनीय रहेगा?',
-                a: 'आपका संपूर्ण डेटाबेस 256-Bit SSL एन्क्रिप्टेड सर्वर पर होस्ट होता है। आपके डेटा का एक्सेस केवल आपके मुख्य वॉर-रूम एडमिन के पास होता है। आपके विरोधी या किसी अन्य व्यक्ति को इसकी भनक भी नहीं लग सकती।',
+                a: 'आपका संपूर्ण डेटाबेस 256-Bit SSL एन्क्रिप्टेड सर्वर पर होस्ट होता है। आपके डेटा का एक्सेस केवल आपके मुख्य इलेक्शन मैनेजमेंट एडमिन के पास होता है। आपके विरोधी या किसी अन्य व्यक्ति को इसकी भनक भी नहीं लग सकती।',
               },
               {
                 q: 'परिवार समूह (Family Grouping) और जाति टैगिंग कैसे काम करती है?',
@@ -1374,7 +1374,7 @@ export default function HomePage() {
               },
               {
                 q: 'सॉफ्टवेयर सेटअप होने में कितना समय लगता है?',
-                a: 'जैसे ही आप हमें अपनी सीट की निर्वाचन नामावली (PDF या एक्सेल) देते हैं, हमारी टेक्निकल टीम 12 से 24 घंटे के अंदर आपकी पूरी सीट का वॉर-रूम लाइव कर देती है।',
+                a: 'जैसे ही आप हमें अपनी सीट की निर्वाचन नामावली (PDF या एक्सेल) देते हैं, हमारी टेक्निकल टीम 12 से 24 घंटे के अंदर आपकी पूरी सीट का इलेक्शन मैनेजमेंट लाइव कर देती है।',
               },
             ].map((item, idx) => (
               <div key={idx} className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
@@ -1406,7 +1406,7 @@ export default function HomePage() {
             क्या आप इस बार चुनाव में निर्णायक बढ़त के लिए तैयार हैं?
           </h2>
           <p className="mt-3 text-orange-100 text-base sm:text-lg max-w-2xl mx-auto font-medium">
-            अपनी विधानसभा, नगर पालिका या वार्ड का वॉर-रूम आज ही सेटअप करवाएं। हमारी टेक्निकल टीम 24 घंटे में आपका पूरा डेटा लाइव कर देगी।
+            अपनी विधानसभा, नगर पालिका या वार्ड का इलेक्शन मैनेजमेंट आज ही सेटअप करवाएं। हमारी टेक्निकल टीम 24 घंटे में आपका पूरा डेटा लाइव कर देगी।
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -1414,10 +1414,10 @@ export default function HomePage() {
               onClick={() => setLeadModalOpen(true)}
               className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-slate-950 hover:bg-slate-900 text-white font-extrabold text-base shadow-xl transition-all"
             >
-              लाइव वॉर-रूम डेमो बुक करें
+              लाइव इलेक्शन मैनेजमेंट डेमो बुक करें
             </button>
             <a
-              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('नमस्ते Chunav Ranniti! मुझे वॉर रूम सेटअप की पूरी जानकारी चाहिए।')}`}
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('नमस्ते Chunav Ranniti! मुझे इलेक्शन मैनेजमेंट सेटअप की पूरी जानकारी चाहिए।')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-white text-slate-900 font-extrabold text-base shadow-xl hover:bg-orange-50 transition-all flex items-center justify-center gap-2"
@@ -1437,7 +1437,7 @@ export default function HomePage() {
             <div className="space-y-4 md:col-span-1">
               <BrandLogo size="md" subtitleText="चुनाव रणनीति" />
               <p className="text-slate-500 text-xs leading-relaxed">
-                भारत का सबसे आधुनिक, विश्वसनीय और परिणाम-उन्मुख डिजिटल चुनाव प्रबंधन एवं वॉर-रूम प्लेटफ़ॉर्म।
+                भारत का सबसे आधुनिक, विश्वसनीय और परिणाम-उन्मुख डिजिटल चुनाव प्रबंधन एवं इलेक्शन मैनेजमेंट प्लेटफ़ॉर्म।
               </p>
               <div className="text-xs text-slate-500 space-y-1">
                 <p>
@@ -1485,7 +1485,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-xs">
                 <li>
                   <a href="#pricing" className="hover:text-orange-600">
-                    विधानसभा चुनाव वॉर-रूम
+                    विधानसभा इलेक्शन मैनेजमेंट
                   </a>
                 </li>
                 <li>
@@ -1580,7 +1580,7 @@ export default function HomePage() {
                   <span className="text-[11px] font-black text-orange-600 uppercase tracking-wider bg-orange-50 px-2.5 py-0.5 rounded-full">
                     FREE LIVE DEMO
                   </span>
-                  <h3 className="text-2xl font-black text-slate-900 mt-2">लाइव वॉर-रूम डेमो बुक करें</h3>
+                  <h3 className="text-2xl font-black text-slate-900 mt-2">लाइव इलेक्शन मैनेजमेंट डेमो बुक करें</h3>
                   <p className="text-xs text-slate-500 mt-1">
                     अपना विवरण दर्ज करें, हमारी तकनीकी टीम आपकी सीट का सैंपल डेटा लाइव दिखाएगी।
                   </p>

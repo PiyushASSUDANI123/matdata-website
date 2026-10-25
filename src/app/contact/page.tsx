@@ -5,7 +5,7 @@ import { ArrowLeft, Mail, Shield, ExternalLink, FileText, PhoneCall, Building2 }
 
 export const metadata: Metadata = {
   title: 'संपर्क एवं सहायता (Contact Us) | Chunav Ranniti (चुनाव रणनीति)',
-  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव अभियान, वॉर-रूम एवं तकनीकी सहायता संपर्क विवरण।',
+  description: 'Chunav Ranniti (चुनाव रणनीति) चुनाव अभियान, इलेक्शन मैनेजमेंट एवं तकनीकी सहायता संपर्क विवरण।',
 };
 
 const BACKEND_CONTACT_URL = 'http://localhost:5003/contact.html';
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 संपर्क एवं शिकायत निवारण (Contact &amp; Grievance)
               </h1>
               <p className="text-xs text-slate-500 mt-2">
-                Chunav Ranniti (चुनाव रणनीति) Support Desk &bull; 24/7 Election War-Room Assistance
+                Chunav Ranniti (चुनाव रणनीति) Support Desk &bull; 24/7 Election Management Assistance
               </p>
             </div>
             <div className="hidden sm:block">
@@ -61,7 +61,7 @@ export default function ContactPage() {
               <div className="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold mb-3">
                 <Mail size={20} />
               </div>
-              <h3 className="font-bold text-slate-900 text-base">तकनीकी एवं वॉर-रूम सहायता</h3>
+              <h3 className="font-bold text-slate-900 text-base">तकनीकी एवं इलेक्शन मैनेजमेंट सहायता</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 लाइव चुनाव दिवस सहायता, ऑपरेटर ट्रेनिंग एवं डेटाबेस सहायता के लिए।
               </p>
