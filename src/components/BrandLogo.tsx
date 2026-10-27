@@ -38,7 +38,7 @@ export default function BrandLogo({
         style={{ width: cfg.icon, height: cfg.icon }}
       >
         <Image
-          src="/logo.png"
+          src="/logo.webp"
           alt="Chunav Ranniti"
           width={cfg.icon}
           height={cfg.icon}
